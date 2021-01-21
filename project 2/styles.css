@@ -1,0 +1,62 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-image: url("https://wallpapercave.com/wp/wp2559537.jpg");
+    background-size: cover;
+}
+#form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input,input:active,input:focus{
+    margin: 20px 0;
+    font-size: 20px;
+    padding: 2px 7px ;
+    outline: none;
+}
+#header{
+    text-align: center;
+    padding: 50px 0;
+}
+label{
+    font-size: 30px;
+    margin: 10px 0;
+}
+p{
+    padding: 5px;
+}
+#survey-form{
+    padding: 40px;
+    width: 40%;
+    background-color: rgba(0,0,0,0.6);
+}
+#name,#email,#number{
+    margin: 10px 0;
+    height:30px;
+    width:90%;
+}
+select{
+    margin: 20px 0;
+    width: 93%;
+    height: 35px;
+    font-size: 20px;
+}
+.radio-checkbox{
+    margin: 10px;
+    transform: scale(2);
+}
+#comments{
+    width: 92%;
+    height: 100px;
+    outline: none;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#submit{
+    width: 93%;
+    height: 37px;
+    background-color: #16c79a;
+    cursor: pointer;
+}

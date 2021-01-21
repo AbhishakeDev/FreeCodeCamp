@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Personal portfolio</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="#welcome-section" class="nav-link">
+            <h1 class="nav-text">About</h1>
+        </a>
+        <a href="#projects" class="nav-link">
+            <h1 class="nav-text">Work</h1>
+        </a>
+        <a href="#contact" class="nav-link">
+            <h1 class="nav-text">Contact</h1>
+        </a>
+    </nav>
+    <section id="welcome-section">
+        <h1 id="welcome-text">Hey I Am Mimic</h1>
+        <h3 id="welcome-subtext">A Web Developer</h3>
+    </section>
+    <section id="projects">
+        <h1 id="projects-text">
+            These are some of my projects
+        </h1>
+        <hr id="h_rule">
+        <div id="cards">
+            <div class="project-tile" onclick="location.href='https://www.google.com';" style="cursor: pointer;">
+                <img src="tribute.jpg" class="tile_img" />
+                <div class="tile-div">
+                    <p class="tile_hover"><</p>
+                    <h1 class="tile_text">Tribute Page</h1>
+                    <p class="tile_hover">/></p>
+                </div>
+            </div>
+            <div class="project-tile" onclick="location.href='https://www.google.com';" style="cursor: pointer;">
+                <img src="calc.png" class="tile_img" />
+                <div class="tile-div">
+                    <p class="tile_hover"><</p>
+                    <h1 class="tile_text">Javascript Calculator</h1>
+                    <p class="tile_hover">/></p>
+                </div>
+            </div>
+            <div class="project-tile" onclick="location.href='https://www.google.com';" style="cursor: pointer;">
+                <img src="random-quote-machine.png" class="tile_img" />
+                <div class="tile-div">
+                    <p class="tile_hover"><</p>
+                    <h1 class="tile_text">Random quote machine</h1>
+                    <p class="tile_hover">/></p>
+                </div>
+            </div>
+            <div class="project-tile" onclick="location.href='https://www.google.com';" style="cursor: pointer;">
+                <img src="map.jpg" class="tile_img" />
+                <div class="tile-div">
+                    <p class="tile_hover"><</p>
+                    <h1 class="tile_text">World mapdata</h1>
+                    <p class="tile_hover">/></p>
+                </div>
+            </div>
+            <div class="project-tile" onclick="location.href='https://www.google.com';" style="cursor: pointer;">
+                <img src="wiki.png" class="tile_img" />
+                <div class="tile-div">
+                    <p class="tile_hover"><</p>
+                    <h1 class="tile_text">Wiki Viewer</h1>
+                    <p class="tile_hover">/></p>
+                </div>
+            </div>
+            <div class="project-tile" onclick="location.href='https://www.google.com';" style="cursor: pointer;">
+                <img src="tic-tac-toe.png" class="tile_img" />
+                <div class="tile-div">
+                    <p class="tile_hover"><</p>
+                    <h1 class="tile_text">Tic tac toe</h1>
+                    <p class="tile_hover">/></p>
+                </div>
+            </div>
+            <!-- <div class="card"><a class="project-tile" href="">
+                        <img src="tribute.jpg" class="tile_img" />
+                        <h1 class="tile_text">
+                            <p class="hover_text">
+                                <</p>Tribute Page<p class="hover_text">/>
+                            </p>
+                        </h1>
+                </a></div>
+            <div class="card"><a class="project-tile" href="">
+                        <img src="calc.png" class="tile_img" />
+                        <h1 class="tile_text">
+                            <p class="hover_text">
+                                <</p>Javascript Calculator<p class="hover_text">/>
+                            </p>
+                        </h1>
+                </a></div>
+            <div class="card"><a class="project-tile" href="">
+                    <img src="random-quote-machine.png" class="tile_img" />
+                    <h1 class="tile_text">
+                        <p class="hover_text">
+                            <</p>Random Quote Machine<p class="hover_text">/>
+                        </p>
+                    </h1></a>
+            </div>
+            <div class="card"><a class="project-tile" href="">
+                        <img src="map.jpg" class="tile_img" />
+                        <h1 class="tile_text">
+                            <p class="hover_text">
+                                <</p>World MapData<p class="hover_text">/>
+                            </p>
+                        </h1>
+                </a></div>
+            <div class="card"><a class="project-tile" href="">
+                        <img src="tic-tac-toe.png" class="tile_img" />
+                        <h1 class="tile_text">
+                            <p class="hover_text">
+                                <</p>Tic tac toe<p class="hover_text">/>
+                            </p>
+                        </h1>
+                </a></div>
+            <div class="card"><a class="project-tile" href="">
+                        <img src="wiki.png" class="tile_img" />
+                        <h1 class="tile_text">
+                            <p class="hover_text">
+                                <</p>Wiki Viewer<p class="hover_text">/>
+                            </p>
+                        </h1>
+                </a></div> -->
+        </div>
+        <div id="button-div"> <a href="https://codepen.io/FreeCodeCamp/"><button id="project-button" >Show all <i
+            class="fas fa-greater-than"></i></button></a></div>
+    </section>
+    <div id="contact_footer"><section id="contact">
+        <h1 id="contacts-header">Let's Work Together...</h1>
+        <p id="contacts-subtext">How do you take your coffee?</p>
+        <div id="link-div">
+            <a target="_blank" href="https://facebook.com/freecodecamp" class="profile-link1"><i
+                    class="fab fa-facebook-square contact_icons"></i>Facebook</a>
+            <a target="_blank" href="https://github.com/freecodecamp" id="profile-link" class="profile-link1"><i
+                    class="fab fa-github-square contact_icons"></i>Github</a>
+            <a target="_blank" href="https://twitter.com/freecodecamp" class="profile-link1"><i
+                    class="fab fa-twitter-square contact_icons"></i>Twitter</a>
+            <a target="_blank" href="" class="profile-link1"><i class="far fa-envelope contact_icons"></i>Send a mail</a>
+            <a target="_blank" href="" class="profile-link1"><i class="fas fa-mobile-alt contact_icons"></i>Call me</a>
+        </div>
+    </section>
+    <footer>
+        <h1 id="footer_text">
+            Created By © Abhishek Tripathi All Rights Reserved 2021
+        </h1>
+    </footer>
+</div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
